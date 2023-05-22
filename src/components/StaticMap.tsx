@@ -16,8 +16,8 @@ const StaticMap = ({
     <>
       <img
         className="w-full"
-        width="300"
-        height="200"
+        width="600"
+        height="400"
         src={
           "https://maps.googleapis.com/maps/api/staticmap?center=" +
           `${address}` +

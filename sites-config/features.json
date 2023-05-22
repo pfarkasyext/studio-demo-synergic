@@ -30,6 +30,8 @@
         "address.region",
         "headshot.url",
         "c_providerBio",
+        "address.line1",
+        "mainPhone",
         "slug"
       ]
     }

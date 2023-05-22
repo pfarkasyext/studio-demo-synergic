@@ -81,15 +81,15 @@ export default function Product({ document }: TemplateProps) {
             phone={`${document.mainPhone}`}
             specialty={`${document.c_specialty.specialty}`}
           />
+          <StaticMap
+            address={`${document.address.line1}, ${document.address.city}, ${document.address.region}`}
+          />
         </CenteredContainer>
+        <Footer
+          paragraph={``}
+          logo={`https://a.mktgcdn.com/p-sandbox/WHS91rIABx0NB_QOTNVuanMzZMAFeDZj0DeXTgrT7Go/842x190.png`}
+        />
       </PageLayout>
-      <StaticMap
-        address={`${document.address.line1}, ${document.address.city}, ${document.address.region}`}
-      />
-      <Footer
-        paragraph={``}
-        logo={`https://a.mktgcdn.com/p-sandbox/WHS91rIABx0NB_QOTNVuanMzZMAFeDZj0DeXTgrT7Go/842x190.png`}
-      />
     </>
   );
 }

@@ -1,8 +1,8 @@
 {
   "features": [
     {
-      "name": "product",
-      "streamId": "skis",
+      "name": "provider",
+      "streamId": "my-stream-id-provider",
       "templateType": "JS",
       "entityPageSet": {
         "plugin": {}
@@ -11,10 +11,10 @@
   ],
   "streams": [
     {
-      "$id": "skis",
+      "$id": "my-stream-id-provider",
       "filter": {
         "entityTypes": [
-          "ce_product"
+          "healthcareProfessional"
         ]
       },
       "localization": {
@@ -25,9 +25,11 @@
       },
       "fields": [
         "name",
-        "c_price",
-        "description",
-        "photoGallery",
+        "c_specialty.specialty",
+        "address.city",
+        "address.region",
+        "headshot.url",
+        "c_providerBio",
         "slug"
       ]
     }

@@ -13,7 +13,7 @@ const BigButton = ({ href, title }: BigButtonProps) => {
     <div className="mt-10">
       <a
         href={href}
-        className="flex w-full items-center justify-center rounded-md border border-transparent bg-sky-200 py-3 px-8 text-base font-medium text-white"
+        className="flex w-full items-center justify-center rounded-md border border-transparent bg-red-600 py-3 px-8 text-base font-medium text-white"
       >
         {title}
       </a>

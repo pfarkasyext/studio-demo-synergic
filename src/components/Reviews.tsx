@@ -13,7 +13,7 @@ export const initialProps: ReviewsProps = {
 
 const Reviews = ({ averageRating, reviewCount }: ReviewsProps) => {
   return (
-    <div className="ml-4 border-l border-gray-300 pl-4">
+    <div className="">
       <h2 className="sr-only">Reviews</h2>
       <div className="flex items-center">
         <div>
